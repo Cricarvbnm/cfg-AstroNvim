@@ -45,11 +45,6 @@ return {
         ["H"] = { function() require("astrocore.buffer").nav(-vim.v.count1) end, desc = "Previous buffer" },
       },
 
-      [{ "n", "i" }] = {
-        -- Compeltion
-        ["<c-.>"] = { "<c-space>" },
-      },
-
       [{ "n", "i", "v" }] = {
         ["<C-S>"] = false,
       },
