@@ -54,6 +54,18 @@ return {
         -- XML
         "lemminx",
         "xmlformatter",
+
+        -- hyprland
+        "hyprls",
+
+        -- Java
+        "google-java-format",
+        "jdtls",
+        "java-debug-adapter",
+        -- "checkstyle",
+
+        -- Latex
+        "tex-fmt",
       },
     },
   },

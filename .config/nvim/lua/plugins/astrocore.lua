@@ -13,7 +13,10 @@ return {
     },
 
     filetypes = {
-      hyprland = "hyprlang",
+      extension = {
+        hyprland = "hyprlang",
+        hypr = "hyprlang",
+      },
     },
 
     options = {
