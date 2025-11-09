@@ -66,6 +66,10 @@ return {
 
         -- Latex
         "tex-fmt",
+
+        -- nix
+        'nil',
+        'nixfmt',
       },
     },
   },
