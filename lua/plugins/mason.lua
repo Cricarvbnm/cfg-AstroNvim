@@ -4,6 +4,9 @@ return {
     "WhoIsSethDaniel/mason-tool-installer.nvim",
     opts = {
       ensure_installed = {
+        -- KDL
+        "kdlfmt",
+
         -- Python
         "pyright",
         "black",
@@ -68,8 +71,8 @@ return {
         "tex-fmt",
 
         -- nix
-        'nil',
-        'nixfmt',
+        "nil",
+        "nixfmt",
       },
     },
   },
