@@ -18,10 +18,22 @@ return {
     init = function() vim.g.vimtex_view_method = "zathura" end,
     config = function()
       vim.g.vimtex_view_method = "zathura"
-      vim.g.tex_flavor = "latex"
       vim.maplocalleader = ","
 
       vim.g.vimtex_compiler_method = "latexmk"
+      vim.g.vimtex_compiler_latexmk = {
+        options = {
+          "-pdf",
+          "-shell-escape",
+          "-synctex=1",
+          "-interaction=nonstopmode",
+          "-file-line-error",
+          "-outdir=./build",
+        },
+        callback = 1,
+        continuous = 1,
+        executable = "latexmk",
+      }
     end,
   },
 }
