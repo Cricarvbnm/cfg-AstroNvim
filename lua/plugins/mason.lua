@@ -72,7 +72,7 @@ return {
 
         -- nix
         "nil",
-        "nixfmt",
+        -- "nixfmt", # Use system-wide version
       },
     },
   },
