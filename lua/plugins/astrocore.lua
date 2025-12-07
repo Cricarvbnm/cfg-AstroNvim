@@ -32,7 +32,7 @@ return {
         relativenumber = false,
         cursorline = true,
         cursorlineopt = "number",
-        colorcolumn = "80",
+        colorcolumn = "100",
         signcolumn = "yes",
         wrap = true,
 
